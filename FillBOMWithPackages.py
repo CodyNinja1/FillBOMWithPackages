@@ -6,7 +6,6 @@ import sys
 from rich.progress import Progress
 
 print("FillBOMWithPackages.py - Fill BOM with LCSC Package information")
-print("Made by: Ahmad Saleh")
 
 if len(sys.argv) < 2:
     print("Usage: python Request.py <input_bom_csv> <output_bom_csv>")
